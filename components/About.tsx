@@ -6,7 +6,7 @@ const about = () => {
     <div id="about" className={styles.container}>
       <h2 style={{ textAlign: "center" }}>About Me</h2>
       <div className={styles.about}>
-        <div style={{alignSelf: 'self-start'}} className={styles.box}>
+        <div style={{alignSelf: 'self-start'}} className={`${styles.box} ${styles.dSmNone}`}>
           <Image className={styles.headShot} src="/images/headshot.jpeg" alt="Nick Van den Bleeken" width={400} height={400} />
         </div>
         <div className={styles.box}>
