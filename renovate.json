@@ -1,5 +1,12 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":automergeMinor",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+    ":npm",
+    ":timezone(Europe/Brussels)",
+    ":combinePatchMinorReleases",
+    ":maintainLockFilesWeekly"
   ]
 }
