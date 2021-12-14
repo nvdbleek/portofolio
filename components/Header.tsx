@@ -6,7 +6,7 @@ const Header = () => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 150) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
