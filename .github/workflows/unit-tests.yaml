@@ -15,5 +15,9 @@ jobs:
           node-version: "16.x"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - name: type-check
+        run: yarn type-check
+      - name: lint
+        run: yarn lint
       - name: Jest
         run: yarn test:ci
