@@ -23,7 +23,7 @@ describe('Navigation', () => {
     cy.get('a[href*="skills"]').click()
 
     const skillsSection = cy.get('#skills');
-    skillsSection.find('h1').contains('My Technical Skills');
+    skillsSection.find('h2').contains('My Technical Skills');
     cy.get('#skills').find('img:not([alt=""])').should('have.length', 18);
   });
 

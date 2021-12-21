@@ -31,7 +31,7 @@ const SkillEntry = ({skill}: {skill: string}) => (
 const SkillsSection = () => {
   return (
     <div id="skills" className={styles.skillsSection}>
-      <h1 style={{ textAlign: "center" }}>My Technical Skills</h1>
+      <h2 style={{ textAlign: "center" }}>My Technical Skills</h2>
       <div className={styles.skillsContainer}>
         {skills.map(skill => (
             <SkillEntry key={skill} skill={skill} />
